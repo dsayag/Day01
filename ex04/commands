@@ -1,0 +1,10 @@
+ 2034  mkdir test0 test1 test3 test5
+ 2035  touch -t '207701010000' test0 test1 test3 test5
+ 2035  ls -l
+ 2036  chmod 744 test1/
+ 2037  chmod 111 test5/
+ 2038  ls -l
+ 2039  touch -t '207701010000' test0/ test1/ test3/ test5/
+ 2040  touch -t '207701010000' test2 test4
+ 2041  ls -l
+ 2042  history > commands

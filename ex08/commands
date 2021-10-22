@@ -1,0 +1,7 @@
+printuseronline.sh
+
+cut -d ":" -f 1  /etc/passwd | sort -d | tr '\n' ' '
+
+printuser.sh
+
+cut -d ":" -f 1  /etc/passwd | sort -d
